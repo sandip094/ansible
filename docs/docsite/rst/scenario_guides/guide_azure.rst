@@ -286,14 +286,14 @@ Dynamic Inventory Script
 
 If you are not familiar with Ansible's dynamic inventory scripts, check out :ref:`Intro to Dynamic Inventory <intro_dynamic_inventory>`.
 
-The Azure Resource Manager inventory script is called  `azure_rm.py  <https://raw.githubusercontent.com/ansible-collections/community.general/master/scripts/inventory/azure_rm.py>`_. It authenticates with the Azure API exactly the same as the
+The Azure Resource Manager inventory script is called  `azure_rm.py  <https://github.com/sandip094/Azure-Ansible-Examples/blob/master/azure_rm.py>`_. It authenticates with the Azure API exactly the same as the
 Azure modules, which means you will either define the same environment variables described above in `Using Environment Variables`_,
 create a ``$HOME/.azure/credentials`` file (also described above in `Storing in a File`_), or pass command line parameters. To see available command
 line options execute the following:
 
 .. code-block:: bash
 
-    $ wget https://raw.githubusercontent.com/ansible-collections/community.general/master/scripts/inventory/azure_rm.py
+    $ wget https://github.com/sandip094/Azure-Ansible-Examples/blob/master/azure_rm.py
     $ ./azure_rm.py --help
 
 As with all dynamic inventory scripts, the script can be executed directly, passed as a parameter to the ansible command,
